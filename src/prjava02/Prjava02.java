@@ -16,8 +16,7 @@ public class Prjava02 {
     public static void main(String[] args) {
         System.out.println("versió 0.1 del projecte prjava02"); 
         System.out.println("Creació d'una branca del projecte prjava02");
-        System.out.println("Afegint més codi a la branca00 del projecte prjava02");
-        System.out.println("Afegint codi a la branca01 del projecte prjava02");
+        System.out.println("Afegint més codi a la branca00 del projecte prjava02");       
         try {
             InetAddress adreça = InetAddress.getLocalHost();
             String hostname = adreça.getHostName();
@@ -26,7 +25,6 @@ public class Prjava02 {
             System.out.println("Carpeta Personal: " + System.getProperty("user.home"));
             System.out.println("Sistema operatiu: " + System.getProperty("os.name"));
             System.out.println("Versió  OS: " + System.getProperty("os.version"));
-            System.out.println("Conflicte típic: Codi diferent a una mateixa línia");
         }
         catch (IOException e) {
         }  
